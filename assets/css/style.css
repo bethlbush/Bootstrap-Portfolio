@@ -1,0 +1,266 @@
+<style>
+
+	body{
+		position: relative;
+		box-sizing: border-box;
+		min-height: 100%
+		padding-bottom: 75px;
+		width: 960px;
+				
+		}
+	
+	h1 {
+    	background: #4aaaa5;
+    	color: #ffffff;
+    	font-family: georgia;
+    	font-size: 20px;
+    	padding: 17px;
+    	width: 120px;
+    	margin-left: 60px;
+    	float: left;
+    	text-align: center;
+    }
+
+    h2 {
+    	color: #4aaaa5;
+    	font-size: 20px;
+    	font-family: georgia;
+    }
+
+    h3 {
+    	color: #4aaaa5;
+    	font-size: 15px;
+    	font-family: georgia;
+    }
+
+    h4 {
+    	
+    	font-size: 20px;
+    	color: #ffffff;
+    	background: #4aaaa5;
+    	text-align: center;
+    	width: 212px;
+    	height: 38px;
+    	padding-top: 12px;
+    	
+    }
+	
+	.project1 {
+		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 0px 22px 22px 0px;
+
+	}
+
+	#project1 {
+		position: absolute;
+		left: 10px;
+		top:85px;
+
+	}
+		
+	.project2 {
+		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 0px 22px 22px 0px;
+
+	}
+
+	#project2 {
+		position: absolute;
+		left: 10px;
+		top: 85px;
+		width: 212px;	
+	}
+	.project3 {
+		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 22px 22px 22px 0px;
+
+	}
+
+	#project3 {
+		position: absolute;
+		left: 10px;
+		top: 85px;
+	}
+	.project4 {
+		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 22px 22px 22px 0px;
+
+	}
+
+	#project4 {
+		position: absolute;
+		left: 10px;
+		top: 85px;
+		}
+
+	.project5 {
+		position: relative;
+		width: 212px;
+		height: 162px;
+		float: left;
+		margin: 22px 22px 22px 0px;
+
+	}
+
+	#project5 {
+		position: absolute;
+		left: 10px;
+		top: 85px;
+		}
+
+    header {
+    	position: relative;
+    	height: 70px;
+    	background-color: #ffffff;
+    	text-align: center;
+    	
+    }
+	
+	nav {
+		float: left;
+		margin-right: 110px;
+		margin-top: 30px;
+		margin-left: 445px;
+	}
+
+	ul {
+    	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+
+	}
+	li {
+		display: inline-block;
+		font-family: helvetica;
+		font-size: 12px;
+		padding-right: 10px;
+		padding-left: 10px;
+		border-right: 1px solid #dcdcdc;
+		color: #dcdcdc;
+		font-weight: bold;
+		}
+
+ 
+	li:last-child {
+    	border-right: none;
+		}
+
+    img {
+    	float: left;
+    	padding:10px;
+    }
+    a {
+    	text-decoration: none;
+    	color: #777777;
+	}
+	
+	p {
+    	color: #777777;
+    	float: left;
+    	display: inline;
+    }
+
+    .p1 {
+    	width: 300px;
+    	padding-left: 40px;
+
+    }
+	
+
+	hr {
+		color: #cccccc;
+		}
+
+	form{
+		color: #777777;
+		}
+
+	input {
+		color: #cccccc;
+		width: 100%;
+	}
+	textarea {
+		width: 100%;
+	}
+
+	input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin: 15px 0px 15px 0px;
+    padding: 10px 25px 10px 25px;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    font-size: 15px;
+	    }
+
+	#wrapper { 
+		position: relative;
+		width:960px;
+		height: 900px;
+		background-image: url(../images/tree_bark.png);
+		border-top: 1.5px solid #cccccc
+	}
+
+	.mainBox {
+		position: absolute;
+		width: 470px;
+		background: #ffffff;
+		border: solid #dddddd;
+		float: left;
+		margin: 30px 20px 0px 60px;
+		padding:0px 30px 30px 30px;
+		}
+
+	.connectBox {
+		
+		box-sizing: border-box;
+		position: relative;
+		width: 200px;
+		height: 150px;
+		background: #ffffff;
+		margin: 30px 110px 0px 30px;
+		border: solid #dddddd;
+		padding-left: 20px;
+		padding-right: 20px;
+		float: right;
+		text-align: center;
+		
+	}
+
+	.favicon {
+		width: 45px;
+		height: 45px;
+		padding: 15px 0px 0px 7px;
+	}
+
+	footer {
+		box-sizing: border-box;
+		position: absolute;
+		padding: 30px;
+		bottom: 0;
+		width: 960px;
+		background: #666666;
+		color: #cccccc;
+		font-family: helvetica;
+		font-size: 10px;
+		text-align: center;
+		border-top: 7px solid #4aaaa5;
+		float: left;
+	}
+
+</style>
